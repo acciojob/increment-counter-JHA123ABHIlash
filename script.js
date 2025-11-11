@@ -5,7 +5,6 @@
 function Count(){
 
 	alert(cnt);
-	  document.getElementById("counter").innerText = cnt;
-
 	cnt++;
+	document.getElementById("counter").innerText = cnt;
 }
